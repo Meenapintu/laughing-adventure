@@ -1,6 +1,6 @@
 #!/bin/bash
-echo "HI WE ARE INSTALLING ECLIPSE" 
-echo "Select folder of extracted zip " 
+echo "  ########## INSTALLING ECLIPSE #########" 
+echo " Select folder of extracted zip " 
 PATH_BIN=$(zenity --file-selection --directory)
 
 if [ ! -f "$PATH_BIN/eclipse" ]
@@ -31,4 +31,4 @@ cd /usr/local/bin
 sudo rm -rf eclipse
 sudo ln -s $PATH_BIN/eclipse
 
-printf "RUN command eclipse\n"
+printf "\nRUN command eclipse\n"

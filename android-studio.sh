@@ -1,5 +1,5 @@
 #!/bin/bash
-echo "HI WE ARE INSTALLING ANDROID STUDIO" 
+echo "########### INSTALLING ANDROID STUDIO#########" 
 echo "Select bin folder of extracted zip" 
 PATH_BIN=$(zenity --file-selection --directory)
 
@@ -31,4 +31,4 @@ cd /usr/local/bin
 sudo rm -rf studio.sh
 sudo ln -s $PATH_BIN/studio.sh
 
-printf "RUN command studio.sh\n"
+printf "\nRUN command studio.sh\n"
