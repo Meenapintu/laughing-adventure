@@ -1,7 +1,7 @@
 #!/bin/bash
 sudo apt-get update
 sudo apt-get dist-upgrade
-sudo apt-get install build-essential geany vim dconf-editor cmake flashplugin-installer vlc 
+sudo apt-get install build-essential geany vim dconf-editor cmake make unity-tweak-tool codeblocks 
 
 
 sudo xhost +SI:localuser:lightdm
